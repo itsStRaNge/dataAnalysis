@@ -5,8 +5,8 @@ import numpy as np
 INPUT_FILE = 'raw.xlsm'
 INPUT_SHEET = 'IntRes1'
 
-OUTPUT_FILE = 'automation.xlsx'
-OUTPUT_SHEET = 'IntRes1'
+OUTPUT_FILE = INPUT_FILE.split('.')[0] + ' converted.xlsx'
+OUTPUT_SHEET = INPUT_SHEET + '_conv'
 
 
 def my_round(x):
