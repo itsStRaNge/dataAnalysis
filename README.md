@@ -1,4 +1,4 @@
-data Analysis
+Oligomerization Structure Tool
 ==================
 This is a short script for a friend who needed a tool to structure data from his chemical experiments.
 
